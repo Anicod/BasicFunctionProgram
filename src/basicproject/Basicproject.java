@@ -46,6 +46,9 @@ public class Basicproject {
             case 5:
                 function.quotientAndremainder();
                 break;
+            case 6:
+                function.swapOfnumber();
+                break;
         }
 
 

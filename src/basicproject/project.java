@@ -83,7 +83,18 @@ public class project {
         System.out.println("remainder is :" +remainder);
 
     }
-
+    void swapOfnumber(){
+        int num1, num2, num3;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter two number");
+        num1 = sc.nextInt();
+        num2 = sc.nextInt();
+        num3 = num1;
+        num1 = num2;
+        num2 = num3;
+        System.out.println("number num1=" +num1);
+        System.out.println("number num2=" +num2);
+    }
 
 
 
