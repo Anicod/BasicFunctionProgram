@@ -37,6 +37,9 @@ public class Basicproject {
             case 2:
                 function.leapYear();
                 break;
+            case 3:
+                function.powerOftwo();
+                break;
 
 
         }

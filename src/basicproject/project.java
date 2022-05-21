@@ -44,4 +44,17 @@ public class project {
 
 
     }
+
+    void powerOftwo() {
+        int base = 2;
+        int power = 1;
+        int number;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the power of 2");
+        number = sc.nextInt();
+        for (int num = 0; num < number; num++) {
+            power = power * base;
+        }
+        System.out.println("2 to the power " + number + " is " + power);
+    }
 }
