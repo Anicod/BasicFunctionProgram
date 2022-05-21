@@ -57,4 +57,19 @@ public class project {
         }
         System.out.println("2 to the power " + number + " is " + power);
     }
+
+    void factorOfaNumber() {
+        int number;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter an number");
+        number = sc.nextInt();
+        System.out.println("The total factor of:" + number);
+        for (int factor = 2; factor < number; factor++) {
+            while (number % factor == 0) {
+                System.out.println(factor);
+                number = number / factor;
+
+            }
+        }
+    }
 }

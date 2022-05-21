@@ -40,6 +40,9 @@ public class Basicproject {
             case 3:
                 function.powerOftwo();
                 break;
+            case 4:
+                function.factorOfaNumber();
+                break;
 
 
         }
