@@ -105,7 +105,31 @@ public class project {
         else
             System.out.println(" the given number is odd " +number);
     }
+    void consonantAndvowel() {
+        char alpha ;
+        int count=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter any charcter");
+        alpha = sc.next().charAt(0);
+        switch(alpha)
+        {
+            case 'a' :
+            case 'e' :
+            case 'i' :
+            case 'u' :
+            case 'o' :
+            case 'A' :
+            case 'E' :
+            case 'I' :
+            case 'U' :
+                count++;
+        }
+        if(count == 1)
+            System.out.println("entered character "+alpha+" is vowel");
+        else
+            System.out.println("entered character is "+alpha+" is consonent" );
 
+    }
 
 
 

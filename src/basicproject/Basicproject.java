@@ -52,6 +52,9 @@ public class Basicproject {
             case 7:
                 function.evenOdd();
                 break;
+            case 8:
+           function.consonantAndvowel();
+           break;
         }
 
 
