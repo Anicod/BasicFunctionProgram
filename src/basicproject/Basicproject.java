@@ -53,8 +53,12 @@ public class Basicproject {
                 function.evenOdd();
                 break;
             case 8:
-           function.consonantAndvowel();
-           break;
+                 function.consonantAndvowel();
+                 break;
+            case 9:
+                function.largestNumber();
+                break;
+
         }
 
 

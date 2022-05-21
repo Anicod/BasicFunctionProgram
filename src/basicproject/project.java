@@ -130,7 +130,18 @@ public class project {
             System.out.println("entered character is "+alpha+" is consonent" );
 
     }
-
-
-
+    void largestNumber() {
+        int numberA, numberB, numberC;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a three numbers");
+        numberA = sc.nextInt();
+        numberB = sc.nextInt();
+        numberC = sc.nextInt();
+        if(numberA>numberB && numberA>numberC)
+            System.out.println(+numberA+ " is greatest number");
+        else if(numberB>numberC && numberB>numberA)
+            System.out.println( +numberB+ " is greater");
+        else if(numberC>numberA && numberC>numberB)
+            System.out.println(+numberC+ " is greater");
+    }
 }
