@@ -72,4 +72,19 @@ public class project {
             }
         }
     }
+    void quotientAndremainder() {
+        int number;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number");
+        number = sc.nextInt();
+        int quotient = number / 10;
+        int remainder = number % 10;
+        System.out.println("quotient is :" +quotient);
+        System.out.println("remainder is :" +remainder);
+
+    }
+
+
+
+
 }

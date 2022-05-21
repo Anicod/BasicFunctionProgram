@@ -43,8 +43,9 @@ public class Basicproject {
             case 4:
                 function.factorOfaNumber();
                 break;
-
-
+            case 5:
+                function.quotientAndremainder();
+                break;
         }
 
 
