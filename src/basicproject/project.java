@@ -2,6 +2,7 @@ package basicproject;
 
 import java.util.Random;
 import java.util.Scanner;
+
 public class project {
     void flipCoin() {
         int flipCoin;
@@ -25,5 +26,22 @@ public class project {
         double pTail = countTail / total;
         System.out.println("Head percentage" + pHead * 100);
         System.out.println("Tail percentage" + pTail * 100);
+    }
+
+    void leapYear() {
+        int year;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter an year:");
+        year = sc.nextInt();
+        if (year % 4 != 0)
+            System.out.println("not a leap year:" + year);
+        else if (year % 100 != 0)
+            System.out.println("leap year:" + year);
+        else if (year % 400 != 0)
+            System.out.println("not leap year:" + year);
+        else
+            System.out.println("leap year:" + year);
+
+
     }
 }
