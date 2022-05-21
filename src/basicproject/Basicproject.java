@@ -49,6 +49,9 @@ public class Basicproject {
             case 6:
                 function.swapOfnumber();
                 break;
+            case 7:
+                function.evenOdd();
+                break;
         }
 
 

@@ -95,6 +95,17 @@ public class project {
         System.out.println("number num1=" +num1);
         System.out.println("number num2=" +num2);
     }
+    void evenOdd() {
+        int number;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number");
+        number = sc.nextInt();
+        if(number%2==0)
+            System.out.println("the given number is even " +number);
+        else
+            System.out.println(" the given number is odd " +number);
+    }
+
 
 
 
